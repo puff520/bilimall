@@ -221,7 +221,7 @@ lili:
   data:
     elasticsearch:
       cluster-name: elasticsearch
-      cluster-nodes: 127.0.0.1:9200
+      cluster-nodes: 13.215.244.57:9200
       index:
         number-of-replicas: 0
         number-of-shards: 3
@@ -230,8 +230,8 @@ lili:
     #      account:
     #        username: elastic
     #        password: LiLiShopES
-    logstash:
-      server: 127.0.0.1:4560
+#    logstash:
+#      server: 127.0.0.1:4560
     rocketmq:
       promotion-topic: lili_promotion_topic
       promotion-group: lili_promotion_group
@@ -260,7 +260,7 @@ rocketmq:
 xxl:
   job:
     admin:
-      addresses: http://127.0.0.1:9001/xxl-job-admin
+      addresses: http://13.215.244.57:9001/xxl-job-admin
     executor:
       appname: xxl-job-executor-lilishop
       address:
