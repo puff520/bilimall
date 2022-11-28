@@ -211,10 +211,10 @@ lili:
     admin: https://admin.b2b2c.pickmall.cn
   #api地址
   api:
-    buyer: https://buyer-api.pickmall.cn
-    common: https://common-api.pickmall.cn
-    manager: https://admin-api.pickmall.cn
-    store: https://store-api.pickmall.cn
+    buyer: https://buyer-api.kxafx.com
+    common: https://common-api.kxafx.com
+    manager: https://manager-api.kxafx.com
+    store: https://seller-api.kxafx.com
 
   # jwt 细节设定
   jwt-setting:
